@@ -1,0 +1,70 @@
+main{
+    padding: 5%;
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+/*main content*/
+section.main-content{
+    display: flex;
+    flex-direction: column;
+}
+section.main-content h2{
+    margin-bottom: 2%;
+    font-size: 2.2em;
+}
+section.text{
+    margin-bottom: 10%;
+}
+section p{
+    width: 60%;
+    font-size: 1.2em;
+    margin-bottom: 12%;
+    font-weight: 300;
+    line-height: 1.6;
+}
+/*tecnologias*/
+ div.card-container{
+    display: flex;
+    align-self: center;
+}
+div.card{
+    width:100px;
+    height:100px ;
+    padding: 10px;
+    background-color:bisque;
+    border-radius: 15px;
+    margin-left:10px ;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+div.card img{
+    width: 95%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+div.card:hover{
+    box-shadow: 0px 0px 12px rgb(243, 145, 26);
+}
+main figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main figure img{
+    width:300px;
+     height:300px;
+     border-radius: 150px;
+     border: 3px bisque solid;
+     margin-bottom: 10%;
+     transition: 0.2s ease-in-out;
+     cursor: pointer;
+}
+main figure img:hover{
+    box-shadow: 0px 0px 12px rgb(243, 145, 26);
+}
